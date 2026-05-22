@@ -18,34 +18,32 @@ export default function Heritage() {
           className="lg:w-1/2"
         >
           <span className="text-sm font-inter font-semibold tracking-[0.2em] text-gold uppercase mb-4 block">
-            Our Heritage
+            Botanical Heritage
           </span>
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-obsidian mb-8 leading-tight">
-            Menghubungkan <br />
-            Kekayaan <span className="text-emerald italic">Nusantara</span> <br />
-            ke Tangan Dunia.
+            Warisan <span className="text-emerald italic">Jalur Rempah</span> yang Menghidupkan Cita Rasa Dunia.
           </h2>
           <p className="font-inter text-gray-600 text-lg leading-relaxed mb-8">
-            Di Zentara, kami percaya bahwa kualitas tidak bisa dikompromikan. Kami bekerja langsung dengan para petani lokal yang merawat tanah vulkanis Indonesia selama beberapa generasi. 
+            Di Zentara, kami menghormati sejarah panjang tanah vulkanis Indonesia sebagai pusat aroma dunia. Kami bekerja langsung dengan para petani yang telah mewarisi kearifan mengelola rempah murni selama generasi ke generasi.
           </p>
           <p className="font-inter text-gray-600 text-lg leading-relaxed mb-10">
-            Setiap biji kopi, rempah, dan komoditas turunan diproses melalui standardisasi ketat sebelum berlayar ke pelabuhan internasional. Ini bukan sekadar ekspor, ini adalah dedikasi.
+            Setiap vanili, lada, dan kayu manis dipanen pada puncak kematangannya dan diproses melalui standardisasi ketat tingkat global sebelum berlayar. Ini bukan sekadar komoditas, ini adalah kurasi esensi alam Nusantara.
           </p>
           
           {/* Subtle Stats */}
           <div className="flex gap-10 border-t border-gray-100 pt-8">
             <div>
-              <h4 className="font-playfair text-3xl font-bold text-obsidian">15+</h4>
-              <p className="font-inter text-sm text-gray-500 mt-1">Negara Tujuan</p>
+              <h4 className="font-playfair text-3xl font-bold text-obsidian">0.5-3%</h4>
+              <p className="font-inter text-sm text-gray-500 mt-1">Kadar Minyak Atsiri Target (Ekspor Grade)</p>
             </div>
             <div>
               <h4 className="font-playfair text-3xl font-bold text-obsidian">A+</h4>
-              <p className="font-inter text-sm text-gray-500 mt-1">Export Grade</p>
+              <p className="font-inter text-sm text-gray-500 mt-1">Authentic Origin</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Right Content: Aesthetic Image */}
+        {/* Right Content: Aesthetic Spice Farming on White */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -55,11 +53,10 @@ export default function Heritage() {
         >
           <Image 
             src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000&auto=format&fit=crop" 
-            alt="Indonesian Farming Heritage"
+            alt="Authentic Indonesian Spice Farming"
             fill
             className="object-cover"
           />
-          {/* Inner Shadow for Luxury Depth */}
           <div className="absolute inset-0 border border-white/20 rounded-[2rem] z-10"></div>
         </motion.div>
         

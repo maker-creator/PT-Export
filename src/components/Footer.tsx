@@ -9,7 +9,7 @@ export default function Footer() {
             ZENTARA<span className="text-emerald">.</span>
           </h2>
           <p className="font-inter text-gray-500 font-light text-sm max-w-sm leading-relaxed">
-            Elevating Indonesian Commodities to the Global Stage. Mitra tepercaya untuk kebutuhan suplai komoditas premium Anda.
+            Curating Indonesian Botanicals to the Global Stage. Mitra tepercaya untuk kebutuhan suplai rempah mentah premium Anda.
           </p>
         </div>
 
@@ -17,13 +17,13 @@ export default function Footer() {
           <h4 className="font-inter font-bold text-obsidian tracking-wider uppercase mb-6 text-xs">Perusahaan</h4>
           <ul className="space-y-4 font-inter text-gray-500 font-light text-sm">
             <li><a href="#" className="hover:text-emerald transition-colors">Tentang Kami</a></li>
-            <li><a href="#" className="hover:text-emerald transition-colors">Katalog Ekspor</a></li>
+            <li><a href="#" className="hover:text-emerald transition-colors">Koleksi Rempah</a></li>
             <li><a href="#" className="hover:text-emerald transition-colors">Sertifikasi & Kualitas</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-inter font-bold text-obsidian tracking-wider uppercase mb-6 text-xs">Kontak</h4>
+          <h4 className="font-inter font-bold text-obsidian tracking-wider uppercase mb-6 text-xs">Kontak Global</h4>
           <ul className="space-y-4 font-inter text-gray-500 font-light text-sm">
             <li>Jakarta, Indonesia</li>
             <li>export@zentara.com</li>
@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between font-inter text-xs text-gray-400">
-        <p>&copy; {new Date().getFullYear()} Zentara Commodities. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Zentara Spices. All rights reserved.</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <a href="#" className="hover:text-obsidian transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-obsidian transition-colors">Terms of Service</a>

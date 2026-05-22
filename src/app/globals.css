@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  /* Mendaftarkan Palet Warna Eksklusif */
-  --color-obsidian: #1A1A1A;
-  --color-emerald: #047857;
-  --color-gold: #C5A059;
-  --color-coolgrey: #F3F4F6;
+  /* Luxury Spice Palette */
+  --color-obsidian: #1C1917; /* Warm Dark Brown/Black (Espresso) */
+  --color-spice: #9C5221;    /* Cinnamon/Nutmeg Brown */
+  --color-gold: #D4AF37;     /* Saffron Gold */
+  --color-coolgrey: #F3F4F6; /* Background sekunder */
 
-  /* Mendaftarkan Font Premium */
+  /* Fonts */
   --font-playfair: var(--font-playfair), serif;
   --font-inter: var(--font-inter), sans-serif;
 }
