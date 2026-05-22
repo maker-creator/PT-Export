@@ -1,6 +1,8 @@
+// postcss.config.mjs
+/** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    "@tailwindcss/postcss": {}, // Ini yang diubah dari sebelumnya hanya "tailwindcss"
   },
 };
 
